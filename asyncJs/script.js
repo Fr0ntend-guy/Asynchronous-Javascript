@@ -1,4 +1,4 @@
-// Place order 
+// Place order
 // cut the fruit
 // Add water and ice
 // start the machine
@@ -14,6 +14,7 @@ let stocks = {
 };
 
 let order = (Fruit_name, call_production) => {
+  // 1
   setTimeout(() => {
     console.log(`${stocks.Fruits[Fruit_name]} was selected`);
 
@@ -22,25 +23,25 @@ let order = (Fruit_name, call_production) => {
 };
 
 let production = () => {
-  // 1
+  // 2
   setTimeout(() => {
     console.log("production has started");
-    // 2
+    // 3
     setTimeout(() => {
       console.log("the fruit has been chopped");
-      // 3
+      // 4
       setTimeout(() => {
         console.log(`${stocks.Liquid[0]} and ${stocks.Liquid[1]} was added`);
-        // 4
+        // 5
         setTimeout(() => {
           console.log("the machine was started");
-          // 5
+          // 6
           setTimeout(() => {
             console.log(`ice cream was placed on ${stocks.Holder[0]}`);
-            // 6
+            // 7
             setTimeout(() => {
               console.log(`${stocks.Toppings[0]} was added as toppings`);
-              //7
+              //8
               setTimeout(() => {
                 console.log("serve strawberry flavour Ice Cream");
               }, 2000);
