@@ -58,7 +58,7 @@ order(2000, () => console.log(`${stocks.Fruits[0]} was selected`))
   })
   .then(() => {
     return order(2000, () => {
-      console.log(`ice cream was placed on${stocks.Holder[0]}`);
+      console.log(`ice cream was placed on ${stocks.Holder[0]}`);
     });
   })
   .then(() => {
@@ -74,6 +74,7 @@ order(2000, () => console.log(`${stocks.Fruits[0]} was selected`))
 
   .catch(() => {
     console.log("Customer Left");
+  })
+  .finally(() => {
+    console.log("day ended, our shop is closed");
   });
-
-  
