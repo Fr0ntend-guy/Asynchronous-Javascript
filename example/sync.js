@@ -10,4 +10,4 @@ console.log(" spoon ");
 
 // javaScript runs from the top to the bottom one by one serially,
 // if anyone get stuck the entire process get stuck
-// and the synchronous is same
+// and the sync is same
