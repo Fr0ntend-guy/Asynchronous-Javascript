@@ -24,3 +24,5 @@ let order = (time, work) => {
 ## Promises
 
 Promises are objects that represent the eventual completion or failure of an asynchronous operation. A promise is in one of three possible states: fulfilled, rejected, or pending. 
+
+## Happy Coding!
